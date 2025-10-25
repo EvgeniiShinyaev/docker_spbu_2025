@@ -1,9 +1,6 @@
 1) Проверить, что установлен **Docker** и **Docker Compose**  
 (проверить: `docker --version` и `docker compose version`).
 2) Склонировать репозиторий
-bash
-git clone https://github.com/<твой_ник>/docker-two-containers.git
-cd docker-two-containers
 3) Запустить систему 
 docker compose up -d --build
 4) Проверить, что оба контейнера работают
